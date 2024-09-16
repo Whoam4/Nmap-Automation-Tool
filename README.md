@@ -28,6 +28,7 @@
 
 ## SNMP Enumeration (Could be Vulnv)
 ● Sirve para ganar datos de acceso a la confuracion de un sistema
+
 ● Trabaja en el puerto 161
 
 `sudo nmap -v -sS -p 161 TARGET
@@ -36,4 +37,6 @@ cd /usr/share/nmap/scripts -> ls snmp*`
 ### LISTADO SMB
 ```bash
 smbclient -N -L \\\10.129.42.253 # Listado SMB
+smbclient \\\\10.129.42.253\\users # Acceso por SMB
+smbclient -U bob \\\\10.129.42.253\\users  #Acceso con usuario
 
