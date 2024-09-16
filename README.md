@@ -17,7 +17,7 @@
 | Identificación del sistema operativo                             | `sudo nmap -A -V TARGET` / `sudo nmap -v -0 TARGET`|
 | Enumeración básica de servicios                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted  `  
 
-### SMB Enumeration
+## SMB Enumeration
 
 | Command | Description |
 |---------|-------------|
@@ -26,14 +26,14 @@
 | Añadir filtro dentro de la carpeta | `ls smb* ` |
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 
-##SNMP Enumeration (Could be Vulnv)
+## SNMP Enumeration (Could be Vulnv)
 ● Sirve para ganar datos de acceso a la confuracion de un sistema
 ● Trabaja en el puerto 161
 
 `sudo nmap -v -sS -p 161 TARGET
 cd /usr/share/nmap/scripts -> ls snmp*`
 
-#### LISTADO SMB
+### LISTADO SMB
 ```bash
 smbclient -N -L \\\10.129.42.253 # Listado SMB
 
