@@ -27,7 +27,7 @@
 |Escaneo de Vulnerabilidades Web                                                                                   |   `sudo nmap --script http-vuln* TARGET`    |
 |Escaneo de Hosts en un Rango de IPs                                            |   `sudo nmap -sP 192.168.1.1-50`    |
 |Escaneo de Puertos Específicos con Técnica de Timing(evitar detección)        |   `sudo nmap -p 22,80,443 -T4 TARGET`    |
-|Escaneo de Puertos con Evitación de IDS/IPS(Utiliza técnicas para evadir sistemas de detección y prevención de intrusiones)        |   `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`    |
+|Escaneo de Puertos con Evitación de IDS/IPS        |   `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`    |
 |Escaneo de scripts específicos (más enfocado en vulnerabilidades)            |   `sudo nmap --script exploit,brute TARGET`    |
 |Escaneo de scripts específicos (más enfocado en vulnerabilidades)           |   `sudo nmap --script exploit,brute TARGET`    |
 
