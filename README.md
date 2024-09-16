@@ -36,9 +36,18 @@ cd /usr/share/nmap/scripts -> ls snmp*`
 
 ### LIST SMB
 ```bash
-smbclient -N -L \\\10.129.42.253 # Listado SMB
-smbclient \\\\10.129.42.253\\users # Acceso por SMB
-smbclient -U bob \\\\10.129.42.253\\users  #Acceso con usuario ```
+smbclient -N -L \\\\10.129.42.253  # Listado SMB
+smbclient \\\\10.129.42.253\\users  # Acceso por SMB
+smbclient -U bob \\\\10.129.42.253\\users  # Acceso con usuario
+```
+### Identify MySQL databases
+```bash
+sudo nmap -sS -p 3306 TARGET.0/24
+#El puerto 3306 es el de la base de datos MySQL
+```
 
-## MySQL database identifier
+
+
+
+
 
