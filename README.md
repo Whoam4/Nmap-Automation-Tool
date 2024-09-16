@@ -1,6 +1,7 @@
-# Nmap
+# Ethical Hacking CheatSheet: Nmap & More
 
-## 👁️‍🗨️​ Nmap CheatSheet
+## Nmap
+👁️‍🗨️​ **Nmap CheatSheet**
 
 | Command                                       | Description                                            |
 |-----------------------------|--------------------------------------------------------|
