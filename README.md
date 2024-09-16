@@ -1,16 +1,16 @@
 # Nmap
 
-## Nmap CheatSheet
+## 👁️‍🗨️​ Nmap CheatSheet
 
-Detección de vulnerabilidades
+*Detección de vulnerabilidades*
 
 `nmap-v-script vuln TARGET`
 
-Escaneo completo con detección de vulnerabilidades
+*Escaneo completo con detección de vulnerabilidades*
 
 `sudo nmap -v-sS-C-V-T5-script-vuln TARGET`
 
-Informe de vulnerabilidades
+*Informe de vulnerabilidades*
 
 `sudo nmap -v-s5-SC-V-T5-script-vuln -oX vulns.xml --webxml TARGET`
 
