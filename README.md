@@ -17,7 +17,7 @@
 | Identificación del sistema operativo                             | `sudo nmap -A -V TARGET` / `sudo nmap -v -0 TARGET`|
 | Enumeración básica de servicios                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted  `  
 
-## SMB Enumeration
+### SMB Enumeration
 
 | Command | Description |
 |---------|-------------|
@@ -33,7 +33,7 @@
 `sudo nmap -v -sS -p 161 TARGET
 cd /usr/share/nmap/scripts -> ls snmp*`
 
-###LISTADO SMB
+#### LISTADO SMB
 ```bash
 smbclient -N -L \\\10.129.42.253 # Listado SMB
 
