@@ -19,9 +19,9 @@
 | Enumeración básica de servicios                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted  `  
 | Escaneo de versiones (más detallado)            |            `sudo nmap -sV --version-intensity 9 TARGET `          |
 |Escaneo de scripts específicos (más enfocado en vulnerabilidades)        |   `sudo nmap --script exploit,brute TARGET`    |
-|Detección de firewalls y sistemas de evasión  | `sudo nmap -f TARGET (Fragmentar paquetes para evitar firewalls)/ `sudo nmap -D RND:10 
-                                                                              | TARGET ( Usar decoys para evitar detección)`   |     
-| Detección de servicios web y vulnerabilidades web  |      `sudo nmap --script http-enum TARGET`                      |
+
+|Detección de firewalls y sistemas de evasión  | `sudo nmap -f TARGET (Fragmentar paquetes para evitar firewalls) / sudo nmap -D RND:10 
+                                                  TARGET ( Usar decoys para evitar detección)`        `sudo nmap --script http-enum TARGET`|                     
 |Escaneo con traceroute:           |       `sudo nmap --traceroute TARGET`         |
 
 
