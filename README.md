@@ -21,7 +21,7 @@
 
 | Command | Description |
 |---------|-------------|
-| Sirve para encontrar carpetas y archivos compartidos.Suele trabajar en los puertos 139 y 44 | `sudo nmap -v -sS -p 139,445 TARGET` |
+| Sirve para encontrar carpetas y archivos compartidos. Suele trabajar en los puertos 139 y 44 | `sudo nmap -v -sS -p 139,445 TARGET` |
 |Ver scripts de tareas automatizadas: | `cd /usr/share/nmap/scripts -> ls` |
 | Añadir filtro dentro de la carpeta | `ls smb* ` |
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
@@ -34,9 +34,11 @@
 `sudo nmap -v -sS -p 161 TARGET
 cd /usr/share/nmap/scripts -> ls snmp*`
 
-### LISTADO SMB
+### LIST SMB
 ```bash
 smbclient -N -L \\\10.129.42.253 # Listado SMB
 smbclient \\\\10.129.42.253\\users # Acceso por SMB
 smbclient -U bob \\\\10.129.42.253\\users  #Acceso con usuario
+
+### MySQL database identifier
 
