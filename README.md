@@ -44,7 +44,7 @@
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 
-## SNMP Enumeration (Could be Vulnv)
+## ​🔢​ SNMP Enumeration (Could be Vulnv)
 SNMP (Simple Network Management Protocol) es un protocolo utilizado para la gestión y monitoreo de redes. Puede ser explotado para obtener información sobre la configuración del sistema y posibles vulnerabilidades.
 
 ### Comandos de Enumeración SNMP
