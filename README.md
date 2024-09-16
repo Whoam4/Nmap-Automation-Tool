@@ -14,7 +14,7 @@
 | Escaneo de puertos                          | `sudo nmap -sS TARGET `  / `sudo nmap -sS IP(terminado en .0/24)     `             |
 |Escaneo de servicios (la más intrusiva)                              | `sudo nmap -p- -sV TARGET` /  `sudo nmap -sV TARGET -p 80`                            |
 | Generación de informe                   | `sudo nmap -v --reason -sV -oX servicios.xml --webxml TARGET`                         |
-| Escaneo completo con identificación de servicios          | `sudo nmap -sV -sC -p- Target` / `sudo nmap -sV -sC -sV -T5 (aumenta la Velocdiad de escaneo) TARGET `                    |
+| Escaneo completo con identificación de servicios          | `sudo nmap -sV -sC -p- Target` / `sudo nmap -sV -sC -sV -T5 (aumenta la Velocidad de escaneo) TARGET `                    |
 | Identificación del sistema operativo                             | `sudo nmap -A -V TARGET` / `sudo nmap -v -0 TARGET`|
 | Enumeración básica de servicios                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted  `  
 | Escaneo de versiones (más detallado)            |            `sudo nmap -sV --version-intensity 9 TARGET `          |
