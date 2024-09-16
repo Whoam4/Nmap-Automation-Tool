@@ -61,7 +61,7 @@ smbclient \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' en SMB
 smbclient -U bob \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' con el usuario 'bob'
 ```
 
-### Identify database MySQL
+## Identify database MySQL
 `sudo nmap -sS -p 3306 TARGET.0/24`
 ### PostgreSQL
 `sudo nmap -sS -p 5432 TARGET.0/24 PostgreSQL`
