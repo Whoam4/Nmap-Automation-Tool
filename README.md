@@ -38,7 +38,7 @@ cd /usr/share/nmap/scripts -> ls snmp*`
 ```bash
 smbclient -N -L \\\10.129.42.253 # Listado SMB
 smbclient \\\\10.129.42.253\\users # Acceso por SMB
-smbclient -U bob \\\\10.129.42.253\\users  #Acceso con usuario
+smbclient -U bob \\\\10.129.42.253\\users  #Acceso con usuario ```
 
-### MySQL database identifier
+## MySQL database identifier
 
