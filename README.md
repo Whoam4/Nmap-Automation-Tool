@@ -4,18 +4,16 @@
 
 | Command                                       | Description                                            |
 |-----------------------------|--------------------------------------------------------|
-| nmap-v-script vuln TARGET                   | Simple host scan                                       |
-| nmap <start_ip>-<end_ip>                    | Scanning IP address ranges                             |   
-| nmap -p <port_range> <host>                 | Scanning a range of ports                              |
-| nmap -p- <host>                             | Scan all ports                                         |
-| nmap -p 1-1000 <host>                       | Scanning of the 1000 most common ports                 |
-| nmap -sV <host>                             | Scanning services and versions                         |
-| nmap -T5 -F <host>                          | Quick scan without DNS resolution                      |
-| nmap -O <host>                              | Scanning operating systems                             |
-| nmap --script vuln <host>                   | Vulnerability script scannings                         |
-| nmap --script <script_name> <host>          | Scanning for specific scripts                   |
-| nmap -sS <host>                             | Stealth scanning (does not generate logs at destination)|
-| nmap -sU <host>                             | UDP scanning                                           |
-| nmap -sn <network>                          | Scanning live hosts on a network                       |
-| nmap -oX output.xml <host>                  | Save results in XML format                             |
+| Detección de vulnerabilidades                   | nmap -v --script vuln TARGET                                       |
+| Escaneo completo con detección de vulnerabilidades                    | sudo nmap -v -sS -sC -sV -T5 --script=vuln TARGET                             |   
+| Informe de vulnerabilidades                | sudo nmap -v -sS -sC -sV -T5 --script=vuln -oX vulns.xml --webxml TARGET                              |
+| Reconocimiento de Hosts                             | sudo nmap -sn TARGET                                         |
+| Descubrir todos los nodos de la red                       | sudo nmap TARGET y el último valor cambiar por 0/24 / sudo nmap 198.164.1.0/64                 |
+| Descubrir puertos abiertos                             | sudo nmap -p- --open -sS --min-rate 5000 -v -n TARGET                         |
+| Escaneo de puertos                          | sudo nmap -sS TARGET    / sudo nmap -sS IP(terminado en .0/24)                  |
+|Escaneo de servicios (la más intrusiva)                              | sudo nmap -p- -sV TARGET /  sudo nmap -sV TARGET -p 80                            |
+| Generación de informe                   | sudo nmap -v --reason -sV -oX servicios.xml --webxml TARGET                         |
+| Escaneo completo con identificación de servicios          | sudo nmap -sV -sC -p- Target /   sudo nmap -sV -sC -sV -T5 (aumenta la Velocdiad de escaneo) TARGET                     |
+| Identificación del sistema operativo                             | sudo nmap -A -V TARGET / sudo nmap -v -0 TARGET|
+| Enumeración básica de servicios                             | sudo nmap -sCV -p 22,80 TARGET -oN targeted                                   
 
