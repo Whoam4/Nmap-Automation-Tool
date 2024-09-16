@@ -30,7 +30,7 @@
 | Escaneo de puertos con evitación de IDS/IPS (Utiliza técnicas para evadir sistemas de detección y prevención de intrusiones.)                             | `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`                                                             |
 
 
-## SMB Enumeration
+## 🔢​ SMB Enumeration
 
 | Command | Description |
 |---------|-------------|
@@ -44,7 +44,7 @@
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 
-## ​🔢​ SNMP Enumeration (Could be Vulnv)
+## ​SNMP Enumeration (Could be Vulnv)
 SNMP (Simple Network Management Protocol) es un protocolo utilizado para la gestión y monitoreo de redes. Puede ser explotado para obtener información sobre la configuración del sistema y posibles vulnerabilidades.
 
 ### Comandos de Enumeración SNMP
