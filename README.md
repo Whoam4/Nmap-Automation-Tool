@@ -45,27 +45,27 @@
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 
 ## SNMP Enumeration (Could be Vulnv)
-● Sirve para ganar datos de acceso a la confuracion de un sistema
-● Trabaja en el puerto 161
+SNMP (Simple Network Management Protocol) es un protocolo utilizado para la gestión y monitoreo de redes. Puede ser explotado para obtener información sobre la configuración del sistema y posibles vulnerabilidades.
 
-`sudo nmap -v -sS -p 161 TARGET
-cd /usr/share/nmap/scripts -> ls snmp*`
-
-•Enumeración de SNMP con Comandos de Brute Force
-`snmpenum -r TARGET`
-
+### Comandos de Enumeración SNMP
+| Command                                       | Description                                           |
+|-----------------------------------------------|-------------------------------------------------------|
+| `sudo nmap -v -sS -p 161 TARGET`              | Escaneo SNMP en el puerto 161 del objetivo.          |
+| `cd /usr/share/nmap/scripts && ls snmp*`      | Listar scripts SNMP disponibles en Nmap.             |
+| `snmpenum -r TARGET`                         | Enumeración SNMP usando comandos de brute force.     |
 
 ### LIST SMB
 ```bash
-smbclient -N -L \\\\10.129.42.253  # Listado SMB
-smbclient \\\\10.129.42.253\\users  # Acceso por SMB
-smbclient -U bob \\\\10.129.42.253\\users  # Acceso con usuario
+smbclient -N -L \\\\10.129.42.253  # Listado SMB de recursos compartidos
+smbclient \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' en SMB
+smbclient -U bob \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' con el usuario 'bob'
 ```
-### Identify MySQL databases
-```bash
+
+### Identify database MySQL
 sudo nmap -sS -p 3306 TARGET.0/24
-#El puerto 3306 es el de la base de datos MySQL
-```
+# El puerto 3306 es el puerto estándar de MySQL
+
+
 
 
 
