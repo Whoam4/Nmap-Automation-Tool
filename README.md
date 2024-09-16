@@ -63,7 +63,7 @@ smbclient -U bob \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' con el 
 
 ### Identify database MySQL
 sudo nmap -sS -p 3306 TARGET.0/24
-# El puerto 3306 es el puerto estándar de MySQL
+"El puerto 3306 es el puerto estándar de MySQL"
 
 
 
