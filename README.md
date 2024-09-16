@@ -62,7 +62,21 @@ smbclient -U bob \\\\10.129.42.253\\users  # Acceso a la carpeta 'users' con el 
 ```
 
 ### Identify database MySQL
-sudo nmap -sS -p 3306 TARGET.0/24
+`sudo nmap -sS -p 3306 TARGET.0/24`
+### PostgreSQL
+`sudo nmap -sS -p 5432 TARGET.0/24 PostgreSQL`
+### Microsoft SQL Server
+`sudo nmap -sS -p 1433 TARGET.0/24`
+`
+### Oracle Database
+`sudo nmap -sS -p 1521 TARGET.0/24`
+
+
+
+
+
+
+
 "El puerto 3306 es el puerto estándar de MySQL"
 
 
