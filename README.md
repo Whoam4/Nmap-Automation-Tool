@@ -34,15 +34,15 @@
 
 | Command | Description |
 |---------|-------------|
-| Sirve para encontrar carpetas y archivos compartidos. Suele trabajar en los puertos 139 y 44 | `sudo nmap -v -sS -p 139,445 TARGET` |
-|Ver scripts de tareas automatizadas: | `cd /usr/share/nmap/scripts -> ls` |
-| Añadir filtro dentro de la carpeta | `ls smb* ` |
-| Enumeración de Usuarios SMB | `smbclient -L \\TARGET -U "" `. |
-| Escaneo de SMB para Vulnerabilidades Comunes | `nmap --script smb-vuln* TARGET `. |
-| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
-| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
-| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
-| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
+| Sirve para encontrar carpetas y archivos compartidos. Suele trabajar en los puertos 139 y 445 | `sudo nmap -v -sS -p 139,445 TARGET` |
+| Ver scripts de tareas automatizadas | `cd /usr/share/nmap/scripts && ls` |
+| Añadir filtro dentro de la carpeta | `ls smb*` |
+| Enumeración de Usuarios SMB | `smbclient -L \\TARGET -U ""` |
+| Escaneo de SMB para Vulnerabilidades Comunes | `nmap --script smb-vuln* TARGET` |
+| Enumeración de Recursos Compartidos | `smbclient -L \\TARGET -U USERNAME` |
+| Enumeración de Políticas de Seguridad SMB | `sudo nmap -p 139,445 --script smb-security-mode TARGET` |
+| Obtención de Información de la Versión del Protocolo SMB | `sudo nmap -p 139,445 --script smb-protocols TARGET` |
+
 
 ## ​SNMP Enumeration (Could be Vulnv)
 SNMP (Simple Network Management Protocol) es un protocolo utilizado para la gestión y monitoreo de redes. Puede ser explotado para obtener información sobre la configuración del sistema y posibles vulnerabilidades.
