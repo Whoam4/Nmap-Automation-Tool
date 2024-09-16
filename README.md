@@ -23,7 +23,13 @@
 |Detección de firewalls y sistemas de evasión  | `sudo nmap -f TARGET (Fragmentar paquetes para evitar firewalls) / sudo nmap -D RND:10 
                                                   TARGET ( Usar decoys para evitar detección)`        `sudo nmap --script http-enum TARGET`|                     
 |Escaneo con traceroute:           |       `sudo nmap --traceroute TARGET`         |
-
+|Escaneo de Puertos con Técnica de Stealth)        |   `sudo nmap -sS -p 1-65535 TARGET`    |
+|Escaneo de Vulnerabilidades Web        |   `sudo nmap --script http-vuln* TARGET`    |
+|Escaneo de Hosts en un Rango de IPs        |   `sudo nmap -sP 192.168.1.1-50`    |
+|Escaneo de Puertos Específicos con Técnica de Timing(evitar detección)        |   `sudo nmap -p 22,80,443 -T4 TARGET`    |
+|Escaneo de Puertos con Evitación de IDS/IPS(Utiliza técnicas para evadir sistemas de detección y prevención de intrusiones)        |   `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`    |
+|Escaneo de scripts específicos (más enfocado en vulnerabilidades)        |   `sudo nmap --script exploit,brute TARGET`    |
+|Escaneo de scripts específicos (más enfocado en vulnerabilidades)        |   `sudo nmap --script exploit,brute TARGET`    |
 
 ## SMB Enumeration
 
@@ -32,15 +38,23 @@
 | Sirve para encontrar carpetas y archivos compartidos. Suele trabajar en los puertos 139 y 44 | `sudo nmap -v -sS -p 139,445 TARGET` |
 |Ver scripts de tareas automatizadas: | `cd /usr/share/nmap/scripts -> ls` |
 | Añadir filtro dentro de la carpeta | `ls smb* ` |
+| Enumeración de Usuarios SMB | `smbclient -L \\TARGET -U "" `. |
+| Escaneo de SMB para Vulnerabilidades Comunes | `nmap --script smb-vuln* TARGET `. |
+| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
+| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
+| Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 | Ejecutar un script en concreto: | `sudo nmap -v -sS -p 139,445 --script=SCRIPT TARGET `. |
 
 ## SNMP Enumeration (Could be Vulnv)
 ● Sirve para ganar datos de acceso a la confuracion de un sistema
-
 ● Trabaja en el puerto 161
 
 `sudo nmap -v -sS -p 161 TARGET
 cd /usr/share/nmap/scripts -> ls snmp*`
+
+•Enumeración de SNMP con Comandos de Brute Force
+`snmpenum -r TARGET`
+
 
 ### LIST SMB
 ```bash
