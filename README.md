@@ -20,6 +20,8 @@ Asegúrate de tener Nmap y Python3 Instalado en el sistema. En sistemas basados 
  
 ```sudo apt-get install nmap```
 
+---
+
 ## 📥 Descarga e Instalación
 
 Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
