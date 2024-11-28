@@ -34,7 +34,9 @@ cd Nmap-ScriptTool
 # Asegúrate de que el script tenga permisos de ejecución
 chmod +x nmap_security_script.py
 ```
-🚀 Uso
+# 🚀 Uso
+
 Inicia el programa ejecutando el script de Python desde la terminal:
-```# python3 Nmap-Script-Tool.py ```
+
+``` python3 Nmap-Script-Tool.py ```
 
