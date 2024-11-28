@@ -2,7 +2,8 @@
 
 ## Nmap
  ​**Nmap CheatSheet ❗**
-- Nota 1: Esta función hace Y.
+
+- Note: If you come from the automated tool for whatever reason, here you can learn the same thing only in a more professional and theoretical way
 
 ## Nmap CheatSheet 📋
 
