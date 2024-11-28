@@ -26,3 +26,9 @@ git clone https://github.com/tu_usuario/Nmap-Security-Script.git
 cd Nmap-Security-Script
 
 # Asegúrate de tener Nmap instalado en el sistema
+# En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
+sudo apt-get install nmap
+
+# Asegúrate de que el script tenga permisos de ejecución
+chmod +x nmap_security_script.py
+
