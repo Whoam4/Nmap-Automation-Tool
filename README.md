@@ -42,3 +42,19 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 
 ``` python3 Nmap-Script-Tool.py ```
 
+# 🔝​ Puntos Positivos
+Interfaz de Usuario Profesional:
+La estructura de menús y los colores para destacar opciones y mensajes hacen que la herramienta sea intuitiva y fácil de usar.
+
+Múltiples Funcionalidades:
+Combina comandos básicos, detección de vulnerabilidades y enumeración SMB, lo que aumenta su utilidad.
+
+Validación de IPs:
+La función es_ip_valida asegura que el usuario introduzca entradas válidas, evitando errores en tiempo de ejecución.
+
+Logging:
+Registrar comandos y salidas en un archivo es un excelente detalle para auditoría y depuración.
+
+Uso de subprocess:
+Ejecutar comandos con seguridad y capturar tanto la salida estándar como los errores proporciona flexibilidad.
+
