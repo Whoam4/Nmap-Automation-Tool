@@ -3,6 +3,9 @@
 ## Nmap
  ​**Nmap CheatSheet ❗**
 
+ ## Notas
+- Nota 1: Esta función hace Y.
+
 ## Nmap CheatSheet 📋
 
 | Command                                                                   | Description                                                                                                 |
