@@ -20,7 +20,7 @@ Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/Whoam4/Nmap-CheatSheet.git
+git clone https://github.com/Whoam4/Nmap-ScriptTool.git
 
 # Entra en el directorio del proyecto
 cd Nmap-Security-Script
