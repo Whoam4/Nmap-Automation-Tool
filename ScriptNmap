@@ -29,7 +29,7 @@ A continuación, se detallan los comandos de Nmap que puedes ejecutar a través 
 - **[10]** **Escaneo agresivo**: `nmap -A <objetivo>`
 
 ### Ayuda
-- **[4]****Ayuda**: Proporciona información sobre cómo utilizar la herramienta y acceder al código fuente.
+- **[11]** **Ayuda**: Proporciona información sobre cómo utilizar la herramienta y acceder al código fuente.
 
 ## Requisitos
 
@@ -41,3 +41,4 @@ A continuación, se detallan los comandos de Nmap que puedes ejecutar a través 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu_usuario/tu_repositorio.git
+
