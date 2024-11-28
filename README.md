@@ -42,6 +42,8 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 
 ``` python3 Nmap-Script-Tool.py ```
 
+
+---
 ### 🔝​ Puntos Positivos
 
 1.**`Interfaz de Usuario Profesional`**:
