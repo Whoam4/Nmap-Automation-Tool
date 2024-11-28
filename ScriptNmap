@@ -1,0 +1,43 @@
+# Herramienta de Seguridad - Script de Nmap
+
+## Descripción
+
+Esta herramienta es un script interactivo diseñado para facilitar la realización de tareas de seguridad informática mediante el uso de Nmap. Permite a los usuarios ejecutar diversas funciones de escaneo, detección de vulnerabilidades y enumeración SMB, todo a través de un menú fácil de usar.
+
+## Objetivo
+
+El objetivo de esta herramienta es proporcionar a los profesionales de la ciberseguridad una manera sencilla y eficiente de utilizar Nmap para detectar vulnerabilidades, realizar escaneos de red y recopilar información sobre dispositivos en una red.
+
+## Comandos Implementados
+
+A continuación, se detallan los comandos de Nmap que puedes ejecutar a través de esta herramienta:
+
+### Detección de Vulnerabilidades
+- **[1]** Ejecutar escaneos específicos de vulnerabilidades (a definir).
+  
+### SMB Enumeration
+- **[2]** Enumerar recursos SMB disponibles en la red.
+
+### Comandos Básicos de Nmap
+- **[3]** **Escaneo de ping**: `nmap -sn <objetivo>`
+- **[4]** **Escaneo de puertos abiertos**: `nmap -p- <objetivo>`
+- **[5]** **Escaneo SYN**: `nmap -sS <objetivo>`
+- **[6]** **Identificación de versiones de servicios**: `nmap -sV <objetivo>`
+- **[7]** **Detección del sistema operativo**: `nmap -O <objetivo>`
+- **[8]** **Escaneo de puertos específicos**: `nmap -p <puertos> <objetivo>`
+- **[9]** **Uso de scripts Nmap**: `nmap --script <script> <objetivo>`
+- **[10]** **Escaneo agresivo**: `nmap -A <objetivo>`
+
+### Ayuda
+- **[4]****Ayuda**: Proporciona información sobre cómo utilizar la herramienta y acceder al código fuente.
+
+## Requisitos
+
+- Python 3.x
+- Nmap instalado en el sistema
+
+## Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
