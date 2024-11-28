@@ -14,6 +14,12 @@ Esta herramienta está destinada para un uso ético y la mejora de la seguridad.
 
 ---
 
+## ⚙️ Requisitos 
+
+# Asegúrate de tener Nmap instalado en el sistema
+# En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
+```sudo apt-get install nmap```
+
 ## 📥 Descarga e Instalación
 
 Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
@@ -25,14 +31,10 @@ git clone https://github.com/Whoam4/Nmap-ScriptTool.git
 # Entra en el directorio del proyecto
 cd Nmap-ScriptTool 
 
-# Asegúrate de tener Nmap instalado en el sistema
-# En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
-sudo apt-get install nmap
-
 # Asegúrate de que el script tenga permisos de ejecución
 chmod +x nmap_security_script.py
 ```
 🚀 Uso
 Inicia el programa ejecutando el script de Python desde la terminal:
-```python3 nmap_security_script.py```
+```python3 Nmap-Script-Tool.py ```
 
