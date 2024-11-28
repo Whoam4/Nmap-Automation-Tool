@@ -1,4 +1,4 @@
-# Herramienta de Seguridad - Script de Nmap
+# Automatización  - Script de Nmap
 
 --------------------------------------------------------
 
