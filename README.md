@@ -56,7 +56,7 @@ Combina comandos básicos, detección de vulnerabilidades y enumeración SMB, lo
 
 La función es_ip_valida asegura que el usuario introduzca entradas válidas, evitando errores en tiempo de ejecución.
 
-**`.Logging`**:
+4.**`.Logging`**:
 
 Registrar comandos y salidas en un archivo es un excelente detalle para auditoría y depuración.
 
