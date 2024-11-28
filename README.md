@@ -32,7 +32,7 @@ git clone https://github.com/Whoam4/Nmap-ScriptTool.git
 cd Nmap-ScriptTool 
 
 # Asegúrate de que el script tenga permisos de ejecución
-chmod +x nmap_security_script.py
+chmod +x Nmap-Script-Tool.py
 ```
 # 🚀 Uso
 
