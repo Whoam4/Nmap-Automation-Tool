@@ -17,7 +17,7 @@ Esta herramienta está destinada para un uso ético y la mejora de la seguridad.
 ## ⚙️ Requisitos 
 
 # Asegúrate de tener Nmap instalado en el sistema
-# En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
+ En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
 ```sudo apt-get install nmap```
 
 ## 📥 Descarga e Instalación
