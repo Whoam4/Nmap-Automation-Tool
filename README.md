@@ -31,4 +31,8 @@ sudo apt-get install nmap
 
 # Asegúrate de que el script tenga permisos de ejecución
 chmod +x nmap_security_script.py
+```
+🚀 Uso
+Inicia el programa ejecutando el script de Python desde la terminal:
+```python3 nmap_security_script.py```
 
