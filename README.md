@@ -4,7 +4,7 @@
 
 ## 🔥 Presentación
 
-**Nmap Security Script** es una herramienta interactiva diseñada para facilitar tareas de seguridad informática mediante el uso de Nmap. Permite a los usuarios ejecutar funciones de escaneo, detección de vulnerabilidades y enumeración SMB, todo a través de un menú fácil de usar. Creado por **Mario**.
+**Esta herramienta permite realizar escaneos automatizados de redes y detección de vulnerabilidades utilizando Nmap. Diseñada para simplificar y optimizar el proceso de recopilación de información sobre hosts, servicios y posibles vulnerabilidades, esta herramienta ofrece un menú interactivo que permite al usuario seleccionar diferentes opciones de escaneo, incluyendo detección de vulnerabilidades y enumeración de SMB. Creado por **Mario**.
 
 ---
 
