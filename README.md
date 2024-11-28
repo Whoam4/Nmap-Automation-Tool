@@ -2,9 +2,13 @@
 
 --------------------------------------------------------
 
-## 🔥 Presentación
+## 🔥 Presentación/Presentation
 
-Esta herramienta permite realizar escaneos automatizados de redes y detección de vulnerabilidades utilizando Nmap. Diseñada para simplificar y optimizar el proceso de recopilación de información sobre hosts, servicios y posibles vulnerabilidades, esta herramienta ofrece un menú interactivo que permite al usuario seleccionar diferentes opciones de escaneo, incluyendo detección de vulnerabilidades y enumeración de SMB. **Creado por Mario**.
+ES: Esta herramienta permite realizar escaneos automatizados de redes y detección de vulnerabilidades utilizando Nmap. Diseñada para simplificar y optimizar el proceso de recopilación de información sobre hosts, servicios y posibles vulnerabilidades, esta herramienta ofrece un menú interactivo que permite al usuario seleccionar diferentes opciones de escaneo, incluyendo detección de vulnerabilidades y enumeración de SMB. 
+
+EN: This tool allows automated network scanning and vulnerability detection using Nmap. Designed to simplify and streamline the process of gathering information about hosts, services, and potential vulnerabilities, this tool offers an interactive menu that allows the user to select different scanning options, including vulnerability detection and SMB enumeration.
+
+**Creado por Mario**.
 
 ---
 
