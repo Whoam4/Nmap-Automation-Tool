@@ -46,7 +46,7 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 
 1.**Interfaz de Usuario Profesional**:
 
--La estructura de menús y los colores para destacar opciones y mensajes hacen que la herramienta sea intuitiva y fácil de usar.
+### La estructura de menús y los colores para destacar opciones y mensajes hacen que la herramienta sea intuitiva y fácil de usar.
 
 2.**Múltiples Funcionalidades**:
 
