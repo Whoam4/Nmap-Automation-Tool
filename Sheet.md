@@ -3,8 +3,8 @@
 ## Nmap
  ​**Nmap CheatSheet ❗**
 
-- EN   Note:  If you come from the automated tool for whatever reason, here you can learn the same thing only in a more extensive, professional and theoretical way.
-- ES   Nota:  Si vienes de la herramienta automatizada, por lo que sea, aquí puedes aprender lo mismo, solo que de manera más extensa, profesional y teórica.
+- EN -  Note:  If you come from the automated tool for whatever reason, here you can learn the same thing only in a more extensive, professional and theoretical way.
+- ES -  Nota:  Si vienes de la herramienta automatizada, por lo que sea, aquí puedes aprender lo mismo, solo que de manera más extensa, profesional y teórica.
 ## Nmap CheatSheet 📋
 
 | Command                                                                   | Description                                                                                                 |
