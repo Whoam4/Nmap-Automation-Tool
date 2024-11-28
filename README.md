@@ -23,7 +23,7 @@ Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
 git clone https://github.com/Whoam4/Nmap-ScriptTool.git
 
 # Entra en el directorio del proyecto
-cd Nmap-Security-Script
+cd Nmap-ScriptTool 
 
 # Asegúrate de tener Nmap instalado en el sistema
 # En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
