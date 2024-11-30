@@ -49,7 +49,7 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 ![Menú principal de la herramienta](CapturaNmap.PNG)
 *Menú interactivo con opciones de escaneo y vulnerabilidades.*
 
-![Resultado de un escaneo de Nmap](CapturaNmap.PNG)
+![Resultado de un escaneo de Nmap](Captura2.PNG)
 *Ejemplo de un escaneo de Nmap ejecutado por la herramienta.*
 
 ---
