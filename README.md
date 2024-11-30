@@ -46,11 +46,12 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 
 ``` python3 Nmap-Script-Tool.py ```
 
-![Menú principal de la herramienta](CapturaNmap.PNG)
 *Menú interactivo con opciones de escaneo y vulnerabilidades.*
+![Menú principal de la herramienta](CapturaNmap.PNG)
 
-![Resultado de un escaneo de Nmap](Captura2.PNG)
 *Ejemplo de un escaneo de Nmap ejecutado por la herramienta.*
+![Resultado de un escaneo de Nmap](Captura2.PNG)
+
 
 ---
 ### 🔝​ Puntos Positivos
