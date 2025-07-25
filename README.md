@@ -134,41 +134,41 @@ La herramienta calcula métricas de rendimiento para que midas tu eficiencia en 
 
 
 ### 📊 ESTADÍSTICAS DE ESCANEOS
-══════════════════════════════════════
+
 • 🧪 Comandos ejecutados:      24
 • ❌ Errores detectados:        2
 • 📁 Archivos generados:       15
 • ✅ Tasa de éxito:           91.7%
-══════════════════════════════════════
+
 
 ---
 
 ### ⚠️ Uso Ético y Responsable
-══════════════════════════════════════
+
 💡 Esta herramienta está diseñada exclusivamente para profesionales y entornos controlados.
 El mal uso puede tener consecuencias legales graves.
 
 ✅ Está permitido en:
 
-Redes propias con autorización explícita
+- Redes propias con autorización explícita
 
-Laboratorios de pruebas
+- Laboratorios de pruebas
 
-Actividades de pentesting legales
+- Actividades de pentesting legales
 
 🚫 Está prohibido en:
 
-Redes de terceros sin permiso
+- Redes de terceros sin permiso
 
-Sistemas en producción sin autorización
+- Sistemas en producción sin autorización
 
-Actividades maliciosas
-
----
+- Actividades maliciosas
 
 🔐 ¡El hacking ético empieza con la responsabilidad!
 
-### 🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
+---
+
+## 🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
 
 ### 🌟 Ventajas Competitivas
 1. Interfaz Profesional Intuitiva
@@ -204,14 +204,12 @@ Limpieza selectiva de archivos
 ---
 
 ### 📜 Licencia
-══════════════════════════════════════
 Este proyecto está licenciado bajo la Licencia MIT.
 Puedes usarlo, modificarlo y compartirlo libremente, siempre con responsabilidad ética.
 
 ---
 
 ### ⬇️ Descarga ahora y transforma tus auditorías
-══════════════════════════════════════
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit">
 Creado con ❤️ por Mario
 
