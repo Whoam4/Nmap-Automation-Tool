@@ -120,36 +120,52 @@ python3 TPA-Nmap.py
 ![Resultado de un escaneo de Nmap](Exe1.PNG)
 
 ### 📊 Gestión Profesional de Resultados
-Registro automático: Todos los comandos se guardan en nmap_scans.log
+🧠 Registro automático
+Cada comando ejecutado queda registrado en nmap_scans.log, lo que permite revisar tu historial completo y auditar tu trabajo sin perder detalle.
 
-Archivos timestamp: Organizados por tipo y fecha (vuln_scan_20240725_1423.txt)
+🗂️ Archivos timestamp inteligentes
+Los resultados se guardan con nombre automático y fecha, como:
+vuln_scan_20240725_1423.txt
+Ideal para identificar rápidamente qué se hizo y cuándo.
 
-Exportación consolidada: Genera reportes unificados con un clic
+📤 Exportación consolidada
+Con un solo clic puedes generar informes completos listos para entregar o documentar auditorías.
 
-Estadísticas avanzadas:
+📈 Estadísticas avanzadas al instante
+La herramienta calcula métricas de rendimiento para que midas tu eficiencia en tiempo real.
+
 
 ### 📊 ESTADÍSTICAS DE ESCANEOS
 ══════════════════════════════════════
-
-
-
-• Comandos ejecutados: 24
-• Errores: 2
-• Archivos generados: 15
-• Tasa de éxito: 91.7%
-
-
+• 🧪 Comandos ejecutados:      24
+• ❌ Errores detectados:        2
+• 📁 Archivos generados:       15
+• ✅ Tasa de éxito:           91.7%
+══════════════════════════════════════
 
 
 ### ⚠️ Uso Ético y Responsable
 ══════════════════════════════════════
-Esta herramienta debe usarse EXCLUSIVAMENTE en:
+💡 Esta herramienta está diseñada exclusivamente para profesionales y entornos controlados.
+El mal uso puede tener consecuencias legales graves.
+
+✅ Está permitido en:
 
 Redes propias con autorización explícita
 
-Entornos de pruebas controlados
+Laboratorios de pruebas
 
-Ejercicios de seguridad autorizados
+Actividades de pentesting legales
+
+🚫 Está prohibido en:
+
+Redes de terceros sin permiso
+
+Sistemas en producción sin autorización
+
+Actividades maliciosas
+
+🔐 ¡El hacking ético empieza con la responsabilidad!
 
 ### 🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
 
@@ -185,15 +201,13 @@ Estadísticas de ejecución
 Limpieza selectiva de archivos
 
 ### 📜 Licencia
-
----
-
+══════════════════════════════════════
 Este proyecto está licenciado bajo la Licencia MIT.
+Puedes usarlo, modificarlo y compartirlo libremente, siempre con responsabilidad ética.
 
 ### ⬇️ Descarga ahora y transforma tus auditorías
+══════════════════════════════════════
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit">
-<sub>Creado con ❤️ por Mario | ¿Preguntas? Abre un <a href="https://github.com/Whoam4/Nmap-Automation-Tool/issues">issue</a></sub>
-
-</div> 
+Creado con ❤️ por Mario
 
 ---
