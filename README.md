@@ -23,57 +23,67 @@
 
 **Creado por Mario**.
 
+
+<img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=for-the-badge" alt="Python">
+<img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux&style=for-the-badge" alt="Nmap">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="Licencia">
+<img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge" alt="Versión">
+<img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=for-the-badge" alt="Stars">
+<img src="https://img.shields.io/github/forks/Whoam4/Nmap-Automation-Tool?style=for-the-badge&color=blue" alt="Forks">
+
+</div>
+
 ---
 
-## 🌟¿Por Qué Elegir Nuestra Herramienta?
-══════════════════════════════════════
-Team Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al combinar el poder de Nmap con una interfaz intuitiva. Olvídate de memorizar comandos complejos:
+### 👤 Creado por Mario
 
-✅ 12 categorías de escaneo en menús interactivos
+---
 
-✅ Automatización inteligente de técnicas avanzadas
+## 🌟 ¿Por Qué Elegir Nuestra Herramienta?
 
-✅ Gestión profesional de resultados y reportes
+Team Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al combinar el poder de Nmap con una interfaz intuitiva.
 
-✅ Detección de vulnerabilidades con un solo clic
+✅ 12 categorías de escaneo en menús interactivos  
+✅ Automatización inteligente de técnicas avanzadas  
+✅ Gestión profesional de resultados y reportes  
+✅ Detección de vulnerabilidades con un solo clic  
+✅ Técnicas de evasión para pruebas de penetración reales  
 
-✅ Técnicas de evasión para pruebas de penetración reales
+> *"La herramienta más completa que he usado para automatizar Nmap - ahorra horas de trabajo"*  
+> – Hacker Ético Certificado
 
-"La herramienta más completa que he usado para automatizar Nmap - ahorra horas de trabajo" - Hacker Ético Certificado
-
+---
 
 ## 🔥 Características Destacadas
-══════════════════════════════════════
-Categoría	Funcionalidades Clave
-🌐 Descubrimiento	Ping Sweep, ARP Scan, TCP SYN Discovery, Traceroute
-🔍 Escaneo	12 técnicas incluyendo Stealth, XMAS, NULL y UDP Scans
-🛡️ Vulnerabilidades	Detección SMB, SSH, HTTP, SSL y escaneo completo con XML
-📋 Enumeración	SMB, SNMP, DNS, HTTP, FTP, SSH, Bases de Datos
-🥷 Evasión	Fragmentación, IP Spoofing, Señuelos, Proxy/Tor
-📊 Reportes	Estadísticas, Exportación Consolidada, Limpieza Inteligente
 
+| Categoría      | Funcionalidades Clave                                                                 |
+|----------------|----------------------------------------------------------------------------------------|
+| 🌐 Descubrimiento | Ping Sweep, ARP Scan, TCP SYN Discovery, Traceroute                                   |
+| 🔍 Escaneo        | 12 técnicas incluyendo Stealth, XMAS, NULL y UDP Scans                                |
+| 🛡️ Vulnerabilidades | Detección SMB, SSH, HTTP, SSL y escaneo completo con XML                            |
+| 📋 Enumeración    | SMB, SNMP, DNS, HTTP, FTP, SSH, Bases de Datos                                       |
+| 🥷 Evasión         | Fragmentación, IP Spoofing, Señuelos, Proxy/Tor                                      |
+| 📊 Reportes       | Estadísticas, Exportación Consolidada, Limpieza Inteligente                         |
 
 ---
 
-## 🚀 Instalación en 30 Segundoss
-══════════════════════════════════════
+## 🚀 Instalación en 30 Segundos
 
-Asegúrate de tener Nmap y Python3 Instalado en el sistema. En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
- 
-```sudo apt-get install nmap```
- 
+Asegúrate de tener **Python 3** y **Nmap** instalado.
+
 ```bash
-# Clonar repositorio
+# Instalar Nmap (Debian/Ubuntu)
+sudo apt-get install nmap
+
+# Clonar el repositorio
 git clone https://github.com/Whoam4/Nmap-Automation-Tool.git
 
-# Entrar en directorio
+# Entrar en el directorio
 cd Nmap-Automation-Tool
 
-# Ejecutar herramienta
+# Ejecutar la herramienta
 python3 TPA-Nmap.py
 ```
-
----
 
 ### 🧭 Menú Principal Interactivo
 ══════════════════════════════════════
@@ -85,17 +95,17 @@ python3 TPA-Nmap.py
 ┌───────────┬───────────────────────────────────────────────┐
 │ Opción    │ Descripción                                   │
 ├───────────┼───────────────────────────────────────────────┤
-│ [1]       🌐 Descubrimiento de Red                        │
-│ [2]       🔍 Escaneo de Puertos                           │
-│ [3]       🔧 Detección de Servicios                       │
-│ [4]       🛡️ Detección de Vulnerabilidades               │
-│ [5]       📋 Enumeración de Servicios                     │
-│ [6]       🥷 Técnicas de Evasión                          │
-│ [7]       ⚡ Scripts Personalizados                       │
-│ [8]       📊 Estadísticas                                 │
-│ [9]       📤 Exportar Resultados                          │
-│ [10]      🧹 Limpiar Archivos                             │
-│ [0]       🚪 Salir                                        │
+│ [1]       │ 🌐 Descubrimiento de Red                      │
+│ [2]       │ 🔍 Escaneo de Puertos                         │
+│ [3]       │ 🔧 Detección de Servicios                     │
+│ [4]       │ 🛡️ Detección de Vulnerabilidades             │
+│ [5]       │ 📋 Enumeración de Servicios                   │
+│ [6]       │ 🥷 Técnicas de Evasión                        │
+│ [7]       │ ⚡ Scripts Personalizados                     │
+│ [8]       │ 📊 Estadísticas                               │
+│ [9]       │ 📤 Exportar Resultados                        │
+│ [10]      │ 🧹 Limpiar Archivos                           │
+│ [0]       │ 🚪 Salir                                      │
 └───────────┴───────────────────────────────────────────────┘
 
 
@@ -175,13 +185,12 @@ Limpieza selectiva de archivos
 
 ---
 
-<div align="center"> <h3>Descarga ahora y transforma tu forma de hacer auditorías de red</h3>
-https://img.shields.io/badge/Descargar-Ahora!-brightgreen?style=for-the-badge&logo=github
-https://img.shields.io/badge/Ver_en_GitHub-black?style=for-the-badge&logo=github
+Este proyecto está licenciado bajo la Licencia MIT.
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit"> </div>
+### ⬇️ Descarga ahora y transforma tus auditorías
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit">
+<sub>Creado con ❤️ por Mario | ¿Preguntas? Abre un <a href="https://github.com/Whoam4/Nmap-Automation-Tool/issues">issue</a></sub>
 
----
-<hr><div align="center"> <sub>Creado con ❤️ por Mario | ¿Preguntas? Abre un <a href="https://github.com/Whoam4/Nmap-Automation-Tool/issues">issue</a></sub> </div> ```
-
+</div> 
+```
 ---
