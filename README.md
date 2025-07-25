@@ -47,10 +47,10 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 ``` python3 TPA -Nmap.py ```
 
 *Menú interactivo con opciones de escaneo y vulnerabilidades.*
-![Menú principal de la herramienta](Exe1.PNG)
+![Menú principal de la herramienta](Exe2.PNG)
 
 *Ejemplo de algunas opciones de escaneo de Nmap ejecutado por la herramienta.*
-![Resultado de un escaneo de Nmap](Exe2.PNG)
+![Resultado de un escaneo de Nmap](Exe1.PNG)
 
 
 ---
