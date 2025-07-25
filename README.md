@@ -19,7 +19,6 @@
 ██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║╚██████╔╝╚██████╔╝███████║
 ╚═╝      ╚═════╝ ╚═╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚══════╝
 
-<div align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=for-the-badge" alt="Python"> <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux&style=for-the-badge" alt="Nmap"> <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="Licencia"> <img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge" alt="Versión"> <img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=for-the-badge" alt="Stars"> <img src="https://img.shields.io/github/forks/Whoam4/Nmap-Automation-Tool?style=for-the-badge&color=blue" alt="Forks"> </div>
 
 **Creado por Mario**.
 
