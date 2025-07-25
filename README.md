@@ -130,10 +130,16 @@ Estadísticas avanzadas:
 
 ### 📊 ESTADÍSTICAS DE ESCANEOS
 ══════════════════════════════════════
+
+
+
 • Comandos ejecutados: 24
 • Errores: 2
 • Archivos generados: 15
 • Tasa de éxito: 91.7%
+
+
+
 
 ### ⚠️ Uso Ético y Responsable
 ══════════════════════════════════════
