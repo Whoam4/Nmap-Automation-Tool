@@ -32,19 +32,19 @@ Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/Whoam4/Nmap-ScriptTool.git
+git clone https://github.com/Whoam4/Nmap-Automation-Tool.git
 
 # Entra en el directorio del proyecto
-cd Nmap-ScriptTool 
+cd TPA -Nmap.py
 
 # Asegúrate de que el script tenga permisos de ejecución
-chmod +x Nmap-Script-Tool.py
+chmod +x TPA -Nmap.py
 ```
 # 🚀 Uso
 
 Inicia el programa ejecutando el script de Python desde la terminal:
 
-``` python3 Nmap-Script-Tool.py ```
+``` python3 TPA -Nmap.py ```
 
 *Menú interactivo con opciones de escaneo y vulnerabilidades.*
 ![Menú principal de la herramienta](1 (2).PNG)
