@@ -23,10 +23,10 @@
 
 <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=for-the-badge" alt="Python">
 <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux&style=for-the-badge" alt="Nmap">
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="Licencia">
+<img src="https://img.shields.io/badge/License-TPA%20LICENSE-brightgreen?style=for-the-badge" alt="Licencia Especial">
 <img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge" alt="Versión">
-<img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=for-the-badge" alt="Stars">
-<img src="https://img.shields.io/github/forks/Whoam4/Nmap-Automation-Tool?style=for-the-badge&color=blue" alt="Forks">
+<img src="https://img.shields.io/badge/Creado%20por-Un%20Pentester%20y%20Hacker-blueviolet?style=for-the-badge" alt="Creado por un Pentester">
+<img src="https://img.shields.io/badge/Top-2%20Script%20de%20Automatización%20Empresarial-orange?style=for-the-badge" alt="Top 2 Script automatización">
 
 </div>
 
