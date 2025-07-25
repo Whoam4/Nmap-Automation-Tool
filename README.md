@@ -75,10 +75,10 @@ Asegúrate de tener **Python 3** y **Nmap** instalado.
 sudo apt-get install nmap
 
 # Clonar el repositorio
-git clone https://github.com/Whoam4/Nmap-Automation-Tool.git
+git clone https://github.com/Whoam4/TPA-Nmap-Script.git
 
 # Entrar en el directorio
-cd Nmap-Automation-Tool
+cd TPA-Nmap-Script
 
 # Ejecutar la herramienta
 python3 TPA-Nmap.py
