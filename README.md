@@ -81,17 +81,17 @@ python3 TPA-Nmap.py
 ┌───────────┬───────────────────────────────────────────────┐
 │ Opción    │ Descripción                                   │
 ├───────────┼───────────────────────────────────────────────┤
-│ [1]       🌐 Descubrimiento de Red                        │
-│ [2]       🔍 Escaneo de Puertos                           │
-│ [3]       🔧 Detección de Servicios                       │
-│ [4]       🛡️ Detección de Vulnerabilidades               │
-│ [5]       📋 Enumeración de Servicios                     │
-│ [6]       🥷 Técnicas de Evasión                          │
-│ [7]       ⚡ Scripts Personalizados                       │
-│ [8]       📊 Estadísticas                                 │
-│ [9]       📤 Exportar Resultados                          │
-│ [10]      🧹 Limpiar Archivos                             │
-│ [0]       🚪 Salir                                        │
+│ [1]       🌐 Descubrimiento de Red                        
+│ [2]       🔍 Escaneo de Puertos                           
+│ [3]       🔧 Detección de Servicios                      
+│ [4]       🛡️ Detección de Vulnerabilidades                
+│ [5]       📋 Enumeración de Servicios                     
+│ [6]       🥷 Técnicas de Evasión                          
+│ [7]       ⚡ Scripts Personalizados                     
+│ [8]       📊 Estadísticas                                 
+│ [9]       📤 Exportar Resultados                         
+│ [10]      🧹 Limpiar Archivos                             
+│ [0]       🚪 Salir                                        
 └───────────┴───────────────────────────────────────────────┘
 
 ### 🕵️‍♂️ Demostración Práctica
