@@ -1,4 +1,4 @@
-# Automatización  - Script de Nmap
+# Team Poisonous Nmap Automation v2.0  
 
 --------------------------------------------------------
 
