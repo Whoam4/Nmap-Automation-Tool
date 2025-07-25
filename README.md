@@ -85,10 +85,6 @@ python3 TPA-Nmap.py
 ### 🧭 Menú Principal Interactivo
 ══════════════════════════════════════
 
-
-
-
-
 ┌───────────┬───────────────────────────────────────────────┐
 │ Opción    │ Descripción                                   │
 ├───────────┼───────────────────────────────────────────────┤
@@ -105,7 +101,7 @@ python3 TPA-Nmap.py
 │ [0]       │ 🚪 Salir                                      │
 └───────────┴───────────────────────────────────────────────┘
 
-
+---
 
 
 
@@ -118,6 +114,8 @@ python3 TPA-Nmap.py
 
 *Ejemplo de algunas opciones de escaneo de Nmap ejecutado por la herramienta.*
 ![Resultado de un escaneo de Nmap](Exe1.PNG)
+
+---
 
 ### 📊 Gestión Profesional de Resultados
 🧠 Registro automático
@@ -143,6 +141,7 @@ La herramienta calcula métricas de rendimiento para que midas tu eficiencia en 
 • ✅ Tasa de éxito:           91.7%
 ══════════════════════════════════════
 
+---
 
 ### ⚠️ Uso Ético y Responsable
 ══════════════════════════════════════
@@ -164,6 +163,8 @@ Redes de terceros sin permiso
 Sistemas en producción sin autorización
 
 Actividades maliciosas
+
+---
 
 🔐 ¡El hacking ético empieza con la responsabilidad!
 
@@ -200,10 +201,14 @@ Estadísticas de ejecución
 
 Limpieza selectiva de archivos
 
+---
+
 ### 📜 Licencia
 ══════════════════════════════════════
 Este proyecto está licenciado bajo la Licencia MIT.
 Puedes usarlo, modificarlo y compartirlo libremente, siempre con responsabilidad ética.
+
+---
 
 ### ⬇️ Descarga ahora y transforma tus auditorías
 ══════════════════════════════════════
