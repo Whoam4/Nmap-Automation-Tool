@@ -128,7 +128,7 @@ Exportación consolidada: Genera reportes unificados con un clic
 
 Estadísticas avanzadas:
 
-📊 ESTADÍSTICAS DE ESCANEOS
+### 📊 ESTADÍSTICAS DE ESCANEOS
 ══════════════════════════════════════
 • Comandos ejecutados: 24
 • Errores: 2
@@ -145,7 +145,7 @@ Entornos de pruebas controlados
 
 Ejercicios de seguridad autorizados
 
-🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
+### 🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
 
 ### 🌟 Ventajas Competitivas
 1. Interfaz Profesional Intuitiva
@@ -178,7 +178,7 @@ Estadísticas de ejecución
 
 Limpieza selectiva de archivos
 
-📜 Licencia
+### 📜 Licencia
 
 ---
 
