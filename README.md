@@ -1,48 +1,101 @@
 # Team Poisonous Nmap Automation v2.0  
 
 --------------------------------------------------------
+══════════════════════════════════════════════
+## 🔥 🧪 Team Poisonous Nmap Automation v2.0
+══════════════════════════════════════════════
 
-## 🔥 Presentación/Presentation
+ ████████╗███████╗ █████╗ ███╗   ███╗
+ ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
+    ██║   █████╗  ███████║██╔████╔██║
+    ██║   ██╔══╝  ██╔══██║██║╚██╔╝██║
+    ██║   ███████╗██║  ██║██║ ╚═╝ ██║
+    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
+                                      
+██████╗  ██████╗ ██╗███████╗ ██████╗ ███╗   ██╗ ██████╗ ██╗   ██╗███████╗
+██╔══██╗██╔═══██╗██║██╔════╝██╔═══██╗████╗  ██║██╔═══██╗██║   ██║██╔════╝
+██████╔╝██║   ██║██║███████╗██║   ██║██╔██╗ ██║██║   ██║██║   ██║███████╗
+██╔═══╝ ██║   ██║██║╚════██║██║   ██║██║╚██╗██║██║   ██║██║   ██║╚════██║
+██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║╚██████╔╝╚██████╔╝███████║
+╚═╝      ╚═════╝ ╚═╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚══════╝
 
-<div align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux" alt="Nmap"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="Licencia"> <img src="https://img.shields.io/badge/Version-2.0-red" alt="Versión"> <img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=social" alt="Stars"> </div>
+<div align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=for-the-badge" alt="Python"> <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux&style=for-the-badge" alt="Nmap"> <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="Licencia"> <img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge" alt="Versión"> <img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=for-the-badge" alt="Stars"> <img src="https://img.shields.io/github/forks/Whoam4/Nmap-Automation-Tool?style=for-the-badge&color=blue" alt="Forks"> </div>
 
 **Creado por Mario**.
 
 ---
 
-## 🔒 Licencia de Responsabilidad
+##🌟¿Por Qué Elegir Nuestra Herramienta?
+══════════════════════════════════════
+Team Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al combinar el poder de Nmap con una interfaz intuitiva. Olvídate de memorizar comandos complejos:
 
-Esta herramienta está destinada para un uso ético y la mejora de la seguridad. Cualquier uso indebido de esta herramienta es responsabilidad del usuario.
+✅ 12 categorías de escaneo en menús interactivos
+
+✅ Automatización inteligente de técnicas avanzadas
+
+✅ Gestión profesional de resultados y reportes
+
+✅ Detección de vulnerabilidades con un solo clic
+
+✅ Técnicas de evasión para pruebas de penetración reales
+
+"La herramienta más completa que he usado para automatizar Nmap - ahorra horas de trabajo" - Hacker Ético Certificado
+
+
+## 🔥 Características Destacadas
+══════════════════════════════════════
+Categoría	Funcionalidades Clave
+🌐 Descubrimiento	Ping Sweep, ARP Scan, TCP SYN Discovery, Traceroute
+🔍 Escaneo	12 técnicas incluyendo Stealth, XMAS, NULL y UDP Scans
+🛡️ Vulnerabilidades	Detección SMB, SSH, HTTP, SSL y escaneo completo con XML
+📋 Enumeración	SMB, SNMP, DNS, HTTP, FTP, SSH, Bases de Datos
+🥷 Evasión	Fragmentación, IP Spoofing, Señuelos, Proxy/Tor
+📊 Reportes	Estadísticas, Exportación Consolidada, Limpieza Inteligente
+
 
 ---
 
-## ⚙️ Requisitos 
+## 🚀 Instalación en 30 Segundoss
+══════════════════════════════════════
 
 Asegúrate de tener Nmap y Python3 Instalado en el sistema. En sistemas basados en Debian/Ubuntu, puedes instalar Nmap con:
  
 ```sudo apt-get install nmap```
+ 
+```bash
+# Clonar repositorio
+git clone https://github.com/Whoam4/Nmap-Automation-Tool.git
+
+# Entrar en directorio
+cd Nmap-Automation-Tool
+
+# Ejecutar herramienta
+python3 TPA-Nmap.py
+```
 
 ---
 
-## 📥 Descarga e Instalación
+### 🧭 Menú Principal Interactivo
+══════════════════════════════════════
 
-Sigue estos pasos para clonar y configurar la herramienta en tu máquina local.
+┌───────────┬───────────────────────────────────────────────┐
+│ Opción    │ Descripción                                   │
+├───────────┼───────────────────────────────────────────────┤
+│ [1]       🌐 Descubrimiento de Red                        │
+│ [2]       🔍 Escaneo de Puertos                           │
+│ [3]       🔧 Detección de Servicios                       │
+│ [4]       🛡️ Detección de Vulnerabilidades               │
+│ [5]       📋 Enumeración de Servicios                     │
+│ [6]       🥷 Técnicas de Evasión                          │
+│ [7]       ⚡ Scripts Personalizados                       │
+│ [8]       📊 Estadísticas                                 │
+│ [9]       📤 Exportar Resultados                          │
+│ [10]      🧹 Limpiar Archivos                             │
+│ [0]       🚪 Salir                                        │
+└───────────┴───────────────────────────────────────────────┘
 
-```bash
-# Clona el repositorio
-git clone https://github.com/Whoam4/Nmap-Automation-Tool.git
-
-# Entra en el directorio del proyecto
-cd TPA -Nmap.py
-
-# Asegúrate de que el script tenga permisos de ejecución
-chmod +x TPA -Nmap.py
-```
-# 🚀 Uso
-
-Inicia el programa ejecutando el script de Python desde la terminal:
-
-``` python3 TPA -Nmap.py ```
+### 🕵️‍♂️ Demostración Práctica
+══════════════════════════════════════
 
 *Menú interactivo con opciones de escaneo y vulnerabilidades.*
 ![Menú principal de la herramienta](Exe2.PNG)
@@ -50,27 +103,76 @@ Inicia el programa ejecutando el script de Python desde la terminal:
 *Ejemplo de algunas opciones de escaneo de Nmap ejecutado por la herramienta.*
 ![Resultado de un escaneo de Nmap](Exe1.PNG)
 
+### 📊 Gestión Profesional de Resultados
+Registro automático: Todos los comandos se guardan en nmap_scans.log
+
+Archivos timestamp: Organizados por tipo y fecha (vuln_scan_20240725_1423.txt)
+
+Exportación consolidada: Genera reportes unificados con un clic
+
+Estadísticas avanzadas:
+
+📊 ESTADÍSTICAS DE ESCANEOS
+══════════════════════════════════════
+• Comandos ejecutados: 24
+• Errores: 2
+• Archivos generados: 15
+• Tasa de éxito: 91.7%
+
+### ⚠️ Uso Ético y Responsable
+══════════════════════════════════════
+Esta herramienta debe usarse EXCLUSIVAMENTE en:
+
+Redes propias con autorización explícita
+
+Entornos de pruebas controlados
+
+Ejercicios de seguridad autorizados
+
+🚨 Advertencia: El uso no autorizado en redes ajenas es ilegal y puede tener consecuencias legales graves.
+
+### 🌟 Ventajas Competitivas
+1. Interfaz Profesional Intuitiva
+Menús con colores y formato claro que guían al usuario paso a paso
+
+2. Automatización de Comandos Complejos
+Convierte técnicas avanzadas de Nmap en selecciones simples:
+
+```bash
+# Técnica de Evasión con Señuelos
+if opcion == "2":
+    decoys = input("Introduce IPs señuelo separadas por comas: ")
+    comando = f"nmap -D {decoys} {objetivo}"
+```
+3. Validación Inteligente de Entradas
+Sistema que verifica IPs/dominios antes de ejecutar escaneos:
+```bash
+def es_ip_valida(ip):
+    patron_ip = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}(?:/[0-9]{1,2})?$")
+    patron_dominio = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9]\.[a-zA-Z]{2,}$")
+    return patron_ip.match(ip) or patron_dominio.match(ip)
+```
+
+4. Gestión Avanzada de Resultados
+Sistema todo-en-uno para manejo de outputs:
+
+Guardado automático en múltiples formatos
+
+Estadísticas de ejecución
+
+Limpieza selectiva de archivos
+
+📜 Licencia
 
 ---
-### 🔝​ Puntos Positivos
 
-1.**`Interfaz de Usuario Profesional`**:
+<div align="center"> <h3>Descarga ahora y transforma tu forma de hacer auditorías de red</h3>
+https://img.shields.io/badge/Descargar-Ahora!-brightgreen?style=for-the-badge&logo=github
+https://img.shields.io/badge/Ver_en_GitHub-black?style=for-the-badge&logo=github
 
-La estructura de menús y los colores para destacar opciones y mensajes hacen que la herramienta sea intuitiva y fácil de usar.
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit"> </div>
 
-2.**`Múltiples Funcionalidades`**:
+---
+<hr><div align="center"> <sub>Creado con ❤️ por Mario | ¿Preguntas? Abre un <a href="https://github.com/Whoam4/Nmap-Automation-Tool/issues">issue</a></sub> </div> ```
 
-Combina comandos básicos, detección de vulnerabilidades y enumeración SMB, lo que aumenta su utilidad.
-
-3.**`Validación de IPs`**:
-
-La función es_ip_valida asegura que el usuario introduzca entradas válidas, evitando errores en tiempo de ejecución.
-
-4.**`.Logging`**:
-
-Registrar comandos y salidas en un archivo es un excelente detalle para auditoría y depuración.
-
-5.**`Uso de subprocess`**:
-
-Ejecutar comandos con seguridad y capturar tanto la salida estándar como los errores proporciona flexibilidad.
-
+---
