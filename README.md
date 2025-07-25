@@ -4,9 +4,7 @@
 
 ## 🔥 Presentación/Presentation
 
-ES: Esta herramienta permite realizar escaneos automatizados de redes y detección de vulnerabilidades utilizando Nmap. Diseñada para simplificar y optimizar el proceso de recopilación de información sobre hosts, servicios y posibles vulnerabilidades, esta herramienta ofrece un menú interactivo que permite al usuario seleccionar diferentes opciones de escaneo, incluyendo detección de vulnerabilidades y enumeración de SMB. 
-
-EN: This tool allows automated network scanning and vulnerability detection using Nmap. Designed to simplify and streamline the process of gathering information about hosts, services, and potential vulnerabilities, this tool offers an interactive menu that allows the user to select different scanning options, including vulnerability detection and SMB enumeration.
+<div align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=linux" alt="Nmap"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="Licencia"> <img src="https://img.shields.io/badge/Version-2.0-red" alt="Versión"> <img src="https://img.shields.io/github/stars/Whoam4/Nmap-Automation-Tool?style=social" alt="Stars"> </div>
 
 **Creado por Mario**.
 
