@@ -20,17 +20,17 @@
 
 **Creado por Mario**.
 
-
 <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&style=for-the-badge" alt="Python">
 <img src="https://img.shields.io/badge/Nmap-7.80%2B-green?logo=nmap&style=for-the-badge" alt="Nmap">
 
-<img src="https://img.shields.io/badge/TPA-License-Especial-brightgreen?style=for-the-badge&logo=key" alt="Licencia Especial TPA">
+<img src="https://img.shields.io/badge/TPA_License-Especial-4c1?style=for-the-badge" alt="Licencia Especial TPA">
 
-<img src="https://img.shields.io/badge/Versión-2.0-red?style=for-the-badge&logo=version" alt="Versión 2.0">
+<img src="https://img.shields.io/badge/Versión-2.0-red?style=for-the-badge" alt="Versión 2.0">
 
 <img src="https://img.shields.io/badge/👨‍💻%20Creado%20por-Un%20Pentester-blueviolet?style=for-the-badge" alt="Creado por un Pentester">
 
 <img src="https://img.shields.io/badge/🚀%20Top%202%20Scripts-automatización-orange?style=for-the-badge" alt="Top 2 Scripts automatización">
+
 
 
 ---
