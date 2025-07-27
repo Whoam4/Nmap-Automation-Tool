@@ -3,13 +3,10 @@
 --------------------------------------------------------
 ══════════════════════════════════════════════
 
-MMP""MM""YMM `7MM"""YMM        db      `7MMM.     ,MMF'    `7MM"""Mq.   .g8""8q.   `7MMF' .M"""bgd   .g8""8q.   `7MN.   `7MF'  .g8""8q.   `7MMF'   `7MF' .M"""bgd 
-P'   MM   `7   MM    `7       ;MM:       MMMb    dPMM        MM   `MM..dP'    `YM.   MM  ,MI    "Y .dP'    `YM.   MMN.    M  .dP'    `YM.   MM       M  ,MI    "Y 
-     MM        MM   d        ,V^MM.      M YM   ,M MM        MM   ,M9 dM'      `MM   MM  `MMb.     dM'      `MM   M YMb   M  dM'      `MM   MM       M  `MMb.     
-     MM        MMmmMM       ,M  `MM      M  Mb  M' MM        MMmmdM9  MM        MM   MM    `YMMNq. MM        MM   M  `MN. M  MM        MM   MM       M    `YMMNq. 
-     MM        MM   Y  ,    AbmmmqMA     M  YM.P'  MM        MM       MM.      ,MP   MM  .     `MM MM.      ,MP   M   `MM.M  MM.      ,MP   MM       M  .     `MM 
-     MM        MM     ,M   A'     VML    M  `YM'   MM        MM       `Mb.    ,dP'   MM  Mb     dM `Mb.    ,dP'   M     YMM  `Mb.    ,dP'   YM.     ,M  Mb     dM 
-   .JMML.    .JMMmmmmMMM .AMA.   .AMMA..JML. `'  .JMML.    .JMML.       `"bmmd"'   .JMML.P"Ybmmd"    `"bmmd"'   .JML.    YM    `"bmmd"'      `bmmmmd"'  P"Ybmmd"  
+  _____   ___     _     __  __     ___    ___    ___   ___    ___    _  _    ___    _   _   ___ 
+ |_   _| | __|   /_\   |  \/  |   | _ \  / _ \  |_ _| / __|  / _ \  | \| |  / _ \  | | | | / __|
+   | |   | _|   / _ \  | |\/| |   |  _/ | (_) |  | |  \__ \ | (_) | | .` | | (_) | | |_| | \__ \
+   |_|   |___| /_/ \_\ |_|  |_|   |_|    \___/  |___| |___/  \___/  |_|\_|  \___/   \___/  |___/  
 
 
 **Creado por Mario**.
