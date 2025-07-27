@@ -3,7 +3,7 @@
 ---
 
 
-║         TEAM POISONOUS v2.0             ║
+║        v2.0             ║
 
                                                                         
 **Creado por Mario**.
