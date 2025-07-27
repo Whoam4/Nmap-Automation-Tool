@@ -193,13 +193,13 @@ def es_ip_valida(ip):
 
 4. Gestión Avanzada de Resultados
    
--Sistema todo-en-uno para manejo de outputs:
+• Sistema todo-en-uno para manejo de outputs:
 
--Guardado automático en múltiples formatos
+• Guardado automático en múltiples formatos
 
--Estadísticas de ejecución
+• Estadísticas de ejecución
 
--Limpieza selectiva de archivos
+• Limpieza selectiva de archivos
 
 ---
 
