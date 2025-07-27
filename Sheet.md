@@ -78,7 +78,7 @@
 [3] Por categoría         → nmap --script [CATEGORÍA]
 [4] Combo Discovery       → nmap -sS -sV -sC --script discovery,enumeration,vuln -A
 [5] Escaneo completo      → nmap -sS -sV -sC -A -p- --script vuln,enum,discovery -oA
-
+```
 ---
 
 
