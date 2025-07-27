@@ -221,7 +221,6 @@ A continuación, se muestran **ejemplos reales** del funcionamiento de la herram
 
 > 🧪 *¿Tienes dudas o sugerencias? Únete al [Discord Oficial de Team Poisonous](https://discord.gg/P8FpEZrJxn) y forma parte de la comunidad.*
 ctamente
-![Exportado Linux](Exportado.PNG)
 
 ---
 
