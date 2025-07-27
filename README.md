@@ -202,12 +202,6 @@ Limpieza selectiva de archivos
 
 ---
 
-### 📜 Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
-Puedes usarlo, modificarlo y compartirlo libremente, siempre con responsabilidad ética.
-
----
-
 ### ⬇️ Descarga ahora y transforma tus auditorías
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Whoam4.Nmap-Automation-Tool" alt="Visitas"> <img src="https://img.shields.io/github/last-commit/Whoam4/Nmap-Automation-Tool?color=blue" alt="Último commit">
 Creado con ❤️ por Mario
