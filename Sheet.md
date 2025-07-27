@@ -2,9 +2,13 @@
 
 ## Nmap
  ​**Nmap CheatSheet ❗**
-
 - EN -  Note:  If you come from the automated tool for whatever reason, here you can learn the same thing only in a more extensive, professional and theoretical way.
 - ES -  Nota:  Si vienes de la herramienta automatizada, por lo que sea, aquí puedes aprender lo mismo, solo que de manera más extensa, profesional y teórica.
+---
+## 🤖 AUTOMATIZACIÓN AVANZADA CON TPA-NMAP.PY
+**EN**: Interactive tool that executes all commands below through simple menus - no memorization required.  
+**ES**: Herramienta interactiva que ejecuta todos los comandos a través de menús simples - sin necesidad de memorización.
+
 
 ## 🤖 AUTOMATIZACIÓN AVANZADA CON TPA-NMAP.PY
 **Interfaz interactiva que ejecuta todos los comandos anteriores sin memorización**
