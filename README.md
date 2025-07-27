@@ -180,7 +180,8 @@ sudo mv TPA-Nmap-Linux-Script /usr/local/bin/tpa-nmap
 ### 🕵️‍♂️ Demostración Práctica  
 ══════════════════════════════════════
 
-A continuación, se muestran ejemplos reales del funcionamiento de la herramienta en ambos sistemas operativos.
+A continuación, se muestran ejemplos reales del funcionamiento de la herramienta en ambos sistemas operativos.  
+⚠️ **Importante:** Estos son solo algunos ejemplos ilustrativos, la herramienta cuenta con muchas más funcionalidades avanzadas para tus escaneos y automatizaciones.
 
 ---
 
@@ -204,7 +205,7 @@ A continuación, se muestran ejemplos reales del funcionamiento de la herramient
 
 ---
 
-## 🪟 Windows – Automación sin límites
+## 🍃 Windows – Automación sin límites
 ✔️ Interfaz optimizada en consola para pentesters en entornos Windows.
 
 #### 🧠 Menú principal (Windows)
@@ -217,6 +218,7 @@ A continuación, se muestran ejemplos reales del funcionamiento de la herramient
 ![Escaneo Windows](EscaneoWindows.PNG)
 
 ---
+
 
 
 ### 📊 Gestión Profesional de Resultados
