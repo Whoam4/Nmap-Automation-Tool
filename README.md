@@ -54,21 +54,34 @@ Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al
 
 ## 🚀 Instalación en 30 Segundos
 
-Asegúrate de tener **Python 3** y **Nmap** instalado.
+### 🖥️ Windows
 
-```bash
-# Instalar Nmap (Debian/Ubuntu)
+```powershell
+# 1. Descarga el archivo .exe.
+#    https://github.com/Whoam4/TPA-Nmap-Script/blob/main/TPA-Nmap-Windows-Script.exe
+
+# 2. Asegúrate de tener Nmap instalado (si no lo tienes):
+https://nmap.org/download
+
+# 3. Ejecuta la herramienta:
+TPA-Nmap-Windows-Script.exe con doble click.
+```
+##🐧 Linux
+```powershell
+# 1. Descarga el archivo ELF.
+#    https://github.com/Whoam4/TPA-Nmap-Script/blob/main/TPA-Nmap-Linux-Script
+
+# 2. Dale permisos de ejecución
+chmod +x TPA-Nmap-Linux-Script
+
+# 3. Asegúrate de tener Nmap instalado
 sudo apt-get install nmap
 
-# Clonar el repositorio
-git clone https://github.com/Whoam4/TPA-Nmap-Script.git
+# 4. Ejecuta la herramienta
+./TPA-Nmap-Linux-Script
 
-# Entrar en el directorio
-cd TPA-Nmap-Script
 
-# Ejecutar la herramienta
-python3 TPA-Nmap.py
-```
+
 
 ### 🧭 Menú Principal Interactivo
 ══════════════════════════════════════
