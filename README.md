@@ -180,27 +180,47 @@ sudo mv TPA-Nmap-Linux-Script /usr/local/bin/tpa-nmap
 ### 🕵️‍♂️ Demostración Práctica  
 ══════════════════════════════════════
 
-A continuación, se muestran ejemplos reales del funcionamiento de la herramienta en ambos sistemas operativos.  
-⚠️ **Importante:** Estos son solo algunos ejemplos ilustrativos, la herramienta cuenta con muchas más funcionalidades avanzadas para tus escaneos y automatizaciones.
+A continuación, se muestran **ejemplos reales** del funcionamiento de la herramienta en ambos sistemas operativos.  
+🔍 *Estas son solo algunas funciones. La herramienta incluye muchas más opciones de escaneo, evasión y automatización.*
 
 ---
 
-## 🐧 Linux – Modo Terminal Total
+## 🐧 Linux – Modo Terminal Total  
 ✔️ Menús interactivos, escaneos avanzados, exportación de resultados y scripts personalizados.
 
 #### 🧠 Menú principal (Linux)
-![Menú Principal Linux](Menu-Principal.PNG)
+![Menú Principal Linux](Examples%20Linux/Menu-Principal.PNG)
 
 #### ⚡ Escaneo en tiempo real
-![Escaneo Linux](Escaneo.PNG)
+![Escaneo Linux](Examples%20Linux/Escaneo.PNG)
 
 #### 📊 Resultados de servicios detectados
-![Servicios y Resultados](Servicios-Resultados.png)
+![Servicios y Resultados](Examples%20Linux/Servicios-Resultados.png)
 
 #### 🔧 Scripts personalizados en acción
-![Scripts Personalizados](Scripts-Personalizados.PNG)
+![Scripts Personalizados](Examples%20Linux/Scripts-Personalizados.PNG)
 
 #### 📁 Resultados exportados correctamente
+![Exportado Linux](Examples%20Linux/Exportado.PNG)
+
+---
+
+## 🍃 Windows – Automatización sin límites  
+✔️ Interfaz optimizada en consola para pentesters en entornos Windows.
+
+#### 🧠 Menú principal (Windows)
+![Menú Principal Windows](Examples%20Windows/MenuPrincipa-Windows.PNG)
+
+#### 🛡️ Técnicas de evasión ejecutadas automáticamente
+![Evasión Windows](Examples%20Windows/Evasion-Windows.PNG)
+
+#### ⚡ Escaneo rápido y detallado
+![Escaneo Windows](Examples%20Windows/EscaneoWindows.PNG)
+
+---
+
+> 🧪 *¿Tienes dudas o sugerencias? Únete al [Discord Oficial de Team Poisonous](https://discord.gg/P8FpEZrJxn) y forma parte de la comunidad.*
+ctamente
 ![Exportado Linux](Exportado.PNG)
 
 ---
