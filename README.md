@@ -71,16 +71,21 @@ TPA-Nmap-Windows-Script.exe con doble click.
 # 1. Descarga el archivo ELF.
 #    https://github.com/Whoam4/TPA-Nmap-Script/blob/main/TPA-Nmap-Linux-Script
 
-# 2. Dale permisos de ejecución
+# 2. Navega a la carpeta donde lo descargaste
+cd ~/Descargas  # (o donde lo hayas guardado)
+
+# 3. Dale permisos de ejecución
 chmod +x TPA-Nmap-Linux-Script
 
-# 3. Asegúrate de tener Nmap instalado
+# 4. Asegúrate de tener Nmap instalado
 sudo apt-get install nmap
 
-# 4. Ejecuta la herramienta
+# 5. Ejecuta la herramienta directamente
 ./TPA-Nmap-Linux-Script
 
-
+# (Opcional) 6. Para ejecutarlo desde cualquier lugar, muévelo a /usr/local/bin:
+sudo mv TPA-Nmap-Linux-Script /usr/local/bin/tpa-nmap
+```
 
 
 ### 🧭 Menú Principal Interactivo
@@ -172,21 +177,47 @@ sudo apt-get install nmap
 ```
 ---
 
----
-
-
-
-
-### 🕵️‍♂️ Demostración Práctica
+### 🕵️‍♂️ Demostración Práctica  
 ══════════════════════════════════════
 
-*Menú interactivo con opciones de escaneo y vulnerabilidades.*
-![Menú principal de la herramienta](Exe2.PNG)
-
-*Ejemplo de algunas opciones de escaneo de Nmap ejecutado por la herramienta.*
-![Resultado de un escaneo de Nmap](Exe1.PNG)
+A continuación, se muestran ejemplos reales del funcionamiento de la herramienta en ambos sistemas operativos.
 
 ---
+
+## 🐧 Linux – Modo Terminal Total
+✔️ Menús interactivos, escaneos avanzados, exportación de resultados y scripts personalizados.
+
+#### 🧠 Menú principal (Linux)
+![Menú Principal Linux](Menu-Principal.PNG)
+
+#### ⚡ Escaneo en tiempo real
+![Escaneo Linux](Escaneo.PNG)
+
+#### 📊 Resultados de servicios detectados
+![Servicios y Resultados](Servicios-Resultados.png)
+
+#### 🔧 Scripts personalizados en acción
+![Scripts Personalizados](Scripts-Personalizados.PNG)
+
+#### 📁 Resultados exportados correctamente
+![Exportado Linux](Exportado.PNG)
+
+---
+
+## 🪟 Windows – Automación sin límites
+✔️ Interfaz optimizada en consola para pentesters en entornos Windows.
+
+#### 🧠 Menú principal (Windows)
+![Menú Principal Windows](MenuPrincipa-Windows.PNG)
+
+#### 🛡️ Técnicas de evasión ejecutadas automáticamente
+![Evasión Windows](Evasion-Windows.PNG)
+
+#### ⚡ Escaneo rápido y detallado
+![Escaneo Windows](EscaneoWindows.PNG)
+
+---
+
 
 ### 📊 Gestión Profesional de Resultados
 🧠 Registro automático
