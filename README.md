@@ -224,22 +224,6 @@ ctamente
 
 ---
 
-## 🍃 Windows – Automación sin límites
-✔️ Interfaz optimizada en consola para pentesters en entornos Windows.
-
-#### 🧠 Menú principal (Windows)
-![Menú Principal Windows](MenuPrincipa-Windows.PNG)
-
-#### 🛡️ Técnicas de evasión ejecutadas automáticamente
-![Evasión Windows](Evasion-Windows.PNG)
-
-#### ⚡ Escaneo rápido y detallado
-![Escaneo Windows](EscaneoWindows.PNG)
-
----
-
-
-
 ### 📊 Gestión Profesional de Resultados
 🧠 Registro automático
 Cada comando ejecutado queda registrado en nmap_scans.log, lo que permite revisar tu historial completo y auditar tu trabajo sin perder detalle.
