@@ -191,7 +191,7 @@ def es_ip_valida(ip):
     return patron_ip.match(ip) or patron_dominio.match(ip)
 ```
 
-4. Gestión Avanzada de Resultados
+👨‍🔧​ 4. Gestión Avanzada de Resultados
    
 • Sistema todo-en-uno para manejo de outputs:
 
