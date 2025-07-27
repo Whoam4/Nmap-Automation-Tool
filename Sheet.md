@@ -5,31 +5,6 @@
 
 - EN -  Note:  If you come from the automated tool for whatever reason, here you can learn the same thing only in a more extensive, professional and theoretical way.
 - ES -  Nota:  Si vienes de la herramienta automatizada, por lo que sea, aquí puedes aprender lo mismo, solo que de manera más extensa, profesional y teórica.
-## Nmap CheatSheet 📋
-
-| Command                                                                   | Description                                                                                                 |
-|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Detección de vulnerabilidades                                               | `nmap -v --script vuln TARGET`                                                                             |
-| Escaneo completo con detección de vulnerabilidades                          | `sudo nmap -v -sS -sC -sV -T5 --script=vuln TARGET`                                                        |
-| Informe de vulnerabilidades                                                 | `sudo nmap -v -sS -sC -sV -T5 --script=vuln -oX vulns.xml --webxml TARGET`                                  |
-| Reconocimiento de Hosts                                                     | `sudo nmap -sn TARGET`                                                                                     |
-| Descubrir todos los nodos de la red                                          | `sudo nmap TARGET` (cambiar el último valor por 0/24) / `sudo nmap 198.164.1.0/24`                         |
-| Descubrir puertos abiertos                                                   | `sudo nmap -p- --open -sS --min-rate 5000 -v -n TARGET`                                                    |
-| Escaneo de puertos                                                           | `sudo nmap -sS TARGET` / `sudo nmap -sS IP(terminado en .0/24)`                                           |
-| Escaneo de servicios (la más intrusiva)                                      | `sudo nmap -p- -sV TARGET` / `sudo nmap -sV TARGET -p 80`                                                  |
-| Generación de informe                                                        | `sudo nmap -v --reason -sV -oX servicios.xml --webxml TARGET`                                              |
-| Escaneo completo con identificación de servicios                             | `sudo nmap -sV -sC -p- TARGET` / `sudo nmap -sV -sC -sV -T5 TARGET` (aumenta la velocidad de escaneo)       |
-| Identificación del sistema operativo                                        | `sudo nmap -A -V TARGET` / `sudo nmap -v -O TARGET`                                                        |
-| Enumeración básica de servicios                                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted`                                                              |
-| Escaneo de versiones (más detallado)                                         | `sudo nmap -sV --version-intensity 9 TARGET`                                                               |
-| Escaneo de scripts específicos (más enfocado en vulnerabilidades)           | `sudo nmap --script exploit,brute TARGET`                                                                  |
-| Detección de firewalls y sistemas de evasión                                 | `sudo nmap -f TARGET` (Fragmentar paquetes para evitar firewalls) / `sudo nmap -D RND:10 TARGET` (Usar decoys para evitar detección)` |
-| Escaneo con traceroute                                                       | `sudo nmap --traceroute TARGET`                                                                            |
-| Escaneo de puertos con técnica de stealth                                    | `sudo nmap -sS -p 1-65535 TARGET`                                                                          |
-| Escaneo de vulnerabilidades web                                             | `sudo nmap --script http-vuln* TARGET`                                                                     |
-| Escaneo de hosts en un rango de IPs                                          | `sudo nmap -sP 192.168.1.1-50`                                                                            |
-| Escaneo de puertos específicos con técnica de timing (evitar detección)      | `sudo nmap -p 22,80,443 -T4 TARGET`                                                                        |
-| Escaneo de puertos con evitación de IDS/IPS (Utiliza técnicas para evadir sistemas de detección y prevención de intrusiones.)                             | `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`                                                             |
 
 ## 🤖 AUTOMATIZACIÓN AVANZADA CON TPA-NMAP.PY
 **Interfaz interactiva que ejecuta todos los comandos anteriores sin memorización**
@@ -103,6 +78,36 @@
 [3] Por categoría         → nmap --script [CATEGORÍA]
 [4] Combo Discovery       → nmap -sS -sV -sC --script discovery,enumeration,vuln -A
 [5] Escaneo completo      → nmap -sS -sV -sC -A -p- --script vuln,enum,discovery -oA
+
+---
+
+
+## Nmap CheatSheet 📋
+
+| Command                                                                   | Description                                                                                                 |
+|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Detección de vulnerabilidades                                               | `nmap -v --script vuln TARGET`                                                                             |
+| Escaneo completo con detección de vulnerabilidades                          | `sudo nmap -v -sS -sC -sV -T5 --script=vuln TARGET`                                                        |
+| Informe de vulnerabilidades                                                 | `sudo nmap -v -sS -sC -sV -T5 --script=vuln -oX vulns.xml --webxml TARGET`                                  |
+| Reconocimiento de Hosts                                                     | `sudo nmap -sn TARGET`                                                                                     |
+| Descubrir todos los nodos de la red                                          | `sudo nmap TARGET` (cambiar el último valor por 0/24) / `sudo nmap 198.164.1.0/24`                         |
+| Descubrir puertos abiertos                                                   | `sudo nmap -p- --open -sS --min-rate 5000 -v -n TARGET`                                                    |
+| Escaneo de puertos                                                           | `sudo nmap -sS TARGET` / `sudo nmap -sS IP(terminado en .0/24)`                                           |
+| Escaneo de servicios (la más intrusiva)                                      | `sudo nmap -p- -sV TARGET` / `sudo nmap -sV TARGET -p 80`                                                  |
+| Generación de informe                                                        | `sudo nmap -v --reason -sV -oX servicios.xml --webxml TARGET`                                              |
+| Escaneo completo con identificación de servicios                             | `sudo nmap -sV -sC -p- TARGET` / `sudo nmap -sV -sC -sV -T5 TARGET` (aumenta la velocidad de escaneo)       |
+| Identificación del sistema operativo                                        | `sudo nmap -A -V TARGET` / `sudo nmap -v -O TARGET`                                                        |
+| Enumeración básica de servicios                                             | `sudo nmap -sCV -p 22,80 TARGET -oN targeted`                                                              |
+| Escaneo de versiones (más detallado)                                         | `sudo nmap -sV --version-intensity 9 TARGET`                                                               |
+| Escaneo de scripts específicos (más enfocado en vulnerabilidades)           | `sudo nmap --script exploit,brute TARGET`                                                                  |
+| Detección de firewalls y sistemas de evasión                                 | `sudo nmap -f TARGET` (Fragmentar paquetes para evitar firewalls) / `sudo nmap -D RND:10 TARGET` (Usar decoys para evitar detección)` |
+| Escaneo con traceroute                                                       | `sudo nmap --traceroute TARGET`                                                                            |
+| Escaneo de puertos con técnica de stealth                                    | `sudo nmap -sS -p 1-65535 TARGET`                                                                          |
+| Escaneo de vulnerabilidades web                                             | `sudo nmap --script http-vuln* TARGET`                                                                     |
+| Escaneo de hosts en un rango de IPs                                          | `sudo nmap -sP 192.168.1.1-50`                                                                            |
+| Escaneo de puertos específicos con técnica de timing (evitar detección)      | `sudo nmap -p 22,80,443 -T4 TARGET`                                                                        |
+| Escaneo de puertos con evitación de IDS/IPS (Utiliza técnicas para evadir sistemas de detección y prevención de intrusiones.)                             | `sudo nmap -sS -p 1-65535 -f -D RND:10 TARGET`                                                             |
+---
 
 
 ## 🔢​ SMB Enumeration
