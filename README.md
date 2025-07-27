@@ -1,4 +1,4 @@
-# Team Poisonous Nmap Automation v2.0  
+# Poisonous Nmap Automation v2.0  
 
 ---
 
