@@ -26,7 +26,7 @@
 
 ## 🌟 ¿Por Qué Elegir Nuestra Herramienta?
 
-Team Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al combinar el poder de Nmap con una interfaz intuitiva.
+Poisonous Nmap Automation revoluciona la forma de realizar auditorías de red al combinar el poder de Nmap con una interfaz intuitiva.
 
 ✅ 12 categorías de escaneo en menús interactivos  
 ✅ Automatización inteligente de técnicas avanzadas  
